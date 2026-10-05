@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef5f2;
+  color: #203b32;
+  margin: 0;
+  padding: 30px;
+}
+
+#planner {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #176b50;
+}
+
+h1 {
+  color: #176b50;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #176b50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#current-task {
+  display: none;
+  width: 100%;
+  background-color: #eef5f2;
+  color: #203b32;
+  border: 1px solid #176b50;
+}
+
+#status {
+  font-weight: bold;
+}

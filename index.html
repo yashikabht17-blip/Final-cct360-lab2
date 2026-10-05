@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="planner">
+    <h1>Study Planner</h1>
+    <p>My study task for today</p>
+
+    <label for="task-input">Enter a task:</label>
+    <input id="task-input" type="text" placeholder="Enter a task">
+    <button id="add-button" type="button">Add Task</button>
+
+    <h2>My Current Task</h2>
+    <input
+      id="current-task"
+      type="text"
+      aria-label="Current study task"
+      readonly
+    >
+
+    <p id="status">No task added yet.</p>
+
+    <button id="complete-button" type="button">
+      Mark Complete
+    </button>
+
+    <button id="colour-button" type="button">
+      Change Colours
+    </button>
+
+    <button id="open-button" type="button">
+      Open in New Tab
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
